@@ -10,3 +10,8 @@ import re
 
 Email_Condition = "^[a-z] + [0-9] + [\._] ? [a-z 0-9] + [@] \w + [.]\w{2,3}$"
 user_email = input("Enter your email ")
+
+if re.search(Email_Condition ,user_email):
+    print("Email is  valid ")
+else:
+    print("Email is Invalid ")
