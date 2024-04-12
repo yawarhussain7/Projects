@@ -13,6 +13,6 @@ qr.add_data("https://chat.openai.com/")
 
 qr.make(fit=True)
 
-image = qr.make_image(fill_color="pink", back_color="red")  # Adjusted color names to lowercase
+image = qr.make_image(fill_color="pink", back_color="white")  # Adjusted color names to lowercase
 
 image.save("Color.png")
