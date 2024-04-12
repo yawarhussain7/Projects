@@ -18,7 +18,7 @@ def Shutdown():
 #tkinter class object
 st = tkinter.Tk()
 # change title of the app
-st.title("Shutdown")
+st.title("Shutdown Application")
 #change size 
 st.geometry("500x500")
 #change back-ground color
