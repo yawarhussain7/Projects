@@ -38,5 +38,5 @@ test_input = input("Enter :> ")
 
 end_time = time()
 
-print("Speed :> ",speed_time(start_time,end_time,test_input))
+print("Speed :> ",speed_time(start_time,end_time,test_input),"words/sec")
 print("Errors :> ",mistake(test,test_input))
