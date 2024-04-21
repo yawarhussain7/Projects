@@ -28,7 +28,7 @@ test = ["It was a bright cold day in April, and the clocks were striking thirtee
             " slipped quickly through the glass doors of Victory Mansions, ",
             "though not quickly enough to prevent a swirl of gritty dust from entering "]
 
-test1 = r.choices(test);
+test1 = r.choices(test)
 print("<<<<<<<<<<<<<<<< Typing Speed >>>>>>>>>>>>>>>>\n");
 print(test1)
 print("\n\n")
